@@ -1,0 +1,25 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "description": "web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkateli/Recipes_Web_Application.git"
+  },
+  "author": "Kate Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkateli/Recipes_Web_Application/issues"
+  },
+  "homepage": "https://github.com/kkateli/Recipes_Web_Application#readme",
+  "devDependencies": {
+    "webpack": "^4.30.0"
+  },
+  "dependencies": {
+    "jquery": "^3.4.0"
+  }
+}
