@@ -4,7 +4,7 @@
   "description": "web application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack" 
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,10 @@
   },
   "homepage": "https://github.com/kkateli/Recipes_Web_Application#readme",
   "devDependencies": {
-    "webpack": "^4.30.0"
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
   },
   "dependencies": {
     "jquery": "^3.4.0"
-  }
+  } 
 }

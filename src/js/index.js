@@ -1,2 +1,4 @@
 // Global app controller
-console.log("See if it works");
+//only the name of the file
+import s from "./testing";
+console.log("I have imported "+ s + " from testing.js");
