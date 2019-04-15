@@ -1,0 +1,14 @@
+//This is the babel configuration file
+{
+    "presets":[
+        ["@babel/preset-env",{
+            "targets":{
+                "browsers":[
+                    "last 5 versions",// it will figure out whic es6 features it needs to convert in order to work on last 5 versions of browsers
+                    "ie >=8"
+                ]
+            }
+        }
+    ]
+]
+}  
