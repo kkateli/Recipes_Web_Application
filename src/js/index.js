@@ -7,3 +7,7 @@ console.log(str);
 
 import {add, multi} from './views/searchView';
 console.log(`${add(3,3)} and ${multi(3,3)}`); 
+
+//or,
+import * as searchView from './views/searchView';
+console.log(`${searchView.add(3,4)}`);
