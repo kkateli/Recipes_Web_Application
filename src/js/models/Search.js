@@ -1,0 +1,1 @@
+export default "I am a string exported"; //default export. No name epecified. Like default sitting. when there is only onew thing we need to export
